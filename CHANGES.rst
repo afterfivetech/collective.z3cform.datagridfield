@@ -1,10 +1,36 @@
 Changelog
 =========
 
-1.5.2 (unreleased)
+1.5.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Register translations in locales directory.
+  [erral]
+
+- Add es and eu translations.
+  [erral]
+  
+- Accesibility fixes.
+  [erral]
+
+
+1.5.3 (2020-03-03)
+------------------
+
+- Bug fix for multiple datagridfields per form.
+  Multiple lines were auto added when more than one datagrid was present.
+  Fixes `issue 96 <https://github.com/collective/collective.z3cform.datagridfield/issues/96>`_.
+  [maurits]
+
+
+1.5.2 (2020-01-07)
+------------------
+
+- Fix "Unknown directive widgetTemplate"
+  [agitator]
+
+- Bug fix: auto appending row.
+  [ksuess]
 
 
 1.5.1 (2019-03-21)
